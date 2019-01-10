@@ -105,7 +105,7 @@ set t_Co=256
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
-set termguicolors
+" set termguicolors
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -392,3 +392,6 @@ let python_highlight_all = 1
 " YCM 
 " let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/trivial_ycm_extra_conf.py'
 let g:airline#extensions#tabline#show_buffers = 0
+
+
+set cursorline
